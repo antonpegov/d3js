@@ -1,0 +1,28 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+
+        {
+            "name": "Launch localhost",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000/index.html",
+            "webRoot": "${workspaceRoot}/wwwroot"
+        },
+        {
+            "name": "Launch index.html (disable sourcemaps)",
+            "type": "chrome",
+            "request": "launch",
+            "sourceMaps": false,
+            "file": "${workspaceRoot}/index.html"
+        },
+        {
+            "name": "Chrome",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "url": "http://localhost:3000/*",
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}
