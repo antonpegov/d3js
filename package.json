@@ -1,0 +1,24 @@
+{
+  "name": "d3_dimple_udacity-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "d3_app.js",
+  "dependencies": {
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.1",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonpegov/d3js.git"
+  },
+  "author": "Anton Pegov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonpegov/d3js/issues"
+  },
+  "homepage": "https://github.com/antonpegov/d3js#readme"
+}

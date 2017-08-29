@@ -1,5 +1,5 @@
 const path = require('path');
-//const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: './d3_app.js',
@@ -8,6 +8,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   plugins: [
-    //new UglifyJSPlugin()
+    new UglifyJSPlugin()
   ]
 };

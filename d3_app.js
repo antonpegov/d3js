@@ -1,6 +1,8 @@
+let svg;
+
 // Sample#1 - simple SVG Circle
 import {_SETUP1} from './modules/sample1.js';
-let svg = d3.select('.sample1').append('svg').style('overflow', 'visible')
+svg = d3.select('.sample1').append('svg').style('overflow', 'visible')
 svg.attr('width', _SETUP1.width).attr('height', _SETUP1.height);
 svg.append('circle')
     .attr('r', _SETUP1.scales.r(1380000000))
