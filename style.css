@@ -2,3 +2,12 @@
     padding:50px;
     background-color: #ddd;
 }
+
+.sample2 svg rect {
+    fill: steelblue;
+}
+.sample2 svg text {
+    fill: white;
+    text-anchor: end;
+    font: 14px sans-serif;
+}
