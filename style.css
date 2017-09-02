@@ -11,3 +11,7 @@
     text-anchor: end;
     font: 14px sans-serif;
 }
+
+.sample3 circle.dimple-series-1{
+    fill: red !important;
+}
