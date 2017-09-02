@@ -37,5 +37,8 @@ draw = (data) => {
 }
 
 toNumber = (d) => { d.value = +d.value; return d;}
-
 d3.tsv('./res/data.tsv', toNumber, draw);
+
+// Sample#2 - Simple Histogram
+import {draw as draw_sample_3} from './modules/sample3.js';
+d3.tsv("./res/world_cup.tsv", draw_sample_3);
