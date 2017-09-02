@@ -13,7 +13,8 @@ function draw(data) {
     xAxis.tickFormat = '%Y';    // Величина шага графика
     xAxis.timeInterval = 4;     // Шаг для засечек на оси x
     yAxis = myChart.addMeasureAxis('y', 'attendance');
-    myChart.addSeries(null, dimple.plot.bar);
+    myChart.addSeries(null, dimple.plot.line);
+    myChart.addSeries(null, dimple.plot.scatter);
     myChart.draw();
 };
 
